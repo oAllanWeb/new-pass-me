@@ -1,0 +1,30 @@
+{
+  "name": "new-pass-me",
+  "version": "0.0.1",
+  "description": "This project is a CLI for generate password",
+  "main": "index.js",
+  "bin": {
+    "new-pass-me": "index.js"
+  },
+  "scripts": {
+    "link": "npm link"
+  },
+  "author": "oAllanWeb <allanweb019@gmail.com>",
+  "keywords": [
+    "password",
+    "generator",
+    "command",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oAllanWeb/new-pass-me.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
