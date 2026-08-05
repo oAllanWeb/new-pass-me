@@ -2,7 +2,10 @@
   "name": "new-pass-me",
   "version": "0.0.2",
   "description": "This project is a CLI for generate password",
-  "main": "index.js",
+  "main": "generatePassword.js",
+  "exports": {
+    ".": "./generatePassword.js"
+  },
   "bin": {
     "new-pass-me": "index.js"
   },
